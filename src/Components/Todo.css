@@ -1,0 +1,122 @@
+body {
+background: #d2e3ed;
+font-family: sans-serif;
+}
+.toDoMain {
+width: 400px;
+min-height: 350px;
+margin: 0 auto;
+background: #fff;
+letter-spacing: 0px;
+box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+position: relative;
+}
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 170px;
+    background-image: url(./headerBg.png);
+    background-position:  center;
+    }
+.date {
+        text-align: center;
+        padding-top: 20px;
+        color: #fff;
+        font-size: 30px;
+        }
+.content {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .taskContent {
+        padding: 1em;
+        min-height: 10px;
+    }
+.taskStatus {
+position: absolute;
+bottom: 0;
+background: #2b352f;
+display: flex;
+justify-content: space-around;
+width: 100%;
+max-width: 400px;
+}
+.taskStatus p{
+margin : 0;
+color: #fff;
+margin : 7px 0;
+
+}
+
+.taskStatus button {
+color: #fff;
+border: none;
+background: transparent;
+text-decoration: underline;
+outline : none;
+}
+form {
+display : flex;
+justify-content: center;
+}
+.addBtn {
+border: none;
+background: #2b352f;
+color: #fff;
+padding: 5px 20px;
+letter-spacing: 1px;
+font-size: 15px;
+}
+.task {
+outline: none;
+border: none;
+margin-right: 10px;
+border-bottom: 1px solid;
+font-size: 15px;
+}
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    padding-bottom: 3em;
+    width : 95%;
+    margin : 0 auto;
+}
+li {
+    position: relative;
+    margin : 10px 0;
+    list-style: none;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+ul button {
+    border: none;
+    background: #2b352f;
+    border-radius: 100%;
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    font-size: 11px;
+    font-weight: bold;
+    outline: none;
+}
+ul div {
+    max-width: 250px;
+    width: 100%;
+    display: flex;
+    color: #2b352f;
+    margin: 0 10px;
+    word-break:break-all;
+
+}
+.task::placeholder {
+    letter-spacing: 1px;
+    color: #2b352f;
+    padding: 3px;
+}
